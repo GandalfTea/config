@@ -22,3 +22,6 @@ highlight String ctermfg=white
 highlight Todo ctermfg=black ctermbg=white cterm=bold    
 highlight Type ctermfg=white cterm=none    
 highlight LineNr ctermfg=238
+highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
+match OverLength /\%>80v.\+/
+
